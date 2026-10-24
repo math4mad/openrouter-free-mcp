@@ -1,0 +1,32 @@
+{
+  "name": "openrouter-free-mcp",
+  "version": "1.0.0",
+  "description": "零依赖 MCP server：通过 openrouter/free 自动路由调用 OpenRouter 免费大模型，自动避开限流",
+  "main": "server.js",
+  "bin": {
+    "openrouter-free-mcp": "server.js"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "openrouter",
+    "free-models",
+    "llm",
+    "model-context-protocol",
+    "trae"
+  ],
+  "author": "math4mad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/math4mad/openrouter-free-mcp.git"
+  },
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
